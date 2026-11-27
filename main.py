@@ -9,7 +9,7 @@ while True:
     opcio = input("Opció: ")
 
     if opcio == "1":
-        print("Encara no disponible")
+        jocs.janken()
     elif opcio == "2":
         jocs.nana()
     elif opcio == "S":
